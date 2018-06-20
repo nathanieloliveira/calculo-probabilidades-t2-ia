@@ -1,0 +1,11 @@
+// Core lib (server, desktop, mobile)
+include ':core', ':entities', ':migration'
+
+// Client side (desktop, mobile):
+include ':client', ':desktop', ':android'
+
+// PdfBuilder [optional] (desktop and server)
+include ':pdfgenerator'
+
+// Tester project:
+//include ':app_tester'
